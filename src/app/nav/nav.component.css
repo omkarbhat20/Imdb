@@ -1,0 +1,15 @@
+.heading{
+    font-size: large;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+.container{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+.bgLightGray{
+    background-color: dodgerblue;
+    color:white;
+}

@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Selected Movie Details</h2>
+  <div class="row">
+    <img class="col-sm-4 width100" [src]="movieData.Poster" [alt]="movieData.Title">
+    <div class="card-body col-sm-8">
+      <h4 class="card-title">Title: {{movieData.Title}}</h4>
+       <h6 class="card-text">Actors: {{movieData.Year}}</h6>
+      <h6 class="card-text">Released: {{movieData.Released}}</h6>
+      <h6 class="card-text">Genre: {{movieData.Genre}}</h6>
+      <h6 class="card-text">Director: {{movieData.Director}}</h6>
+      <h6 class="card-text">Writer: {{movieData.Writer}}</h6>
+      <h6 class="card-text">Plot: {{movieData.Plot}}</h6>
+      <h6 class="card-text">Language: {{movieData.Language}}</h6>
+      <h6 class="card-text">ImdbRating: {{movieData.imdbRating}}</h6>
+    </div>
+  </div>
+</div>

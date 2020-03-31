@@ -1,0 +1,16 @@
+.movie{
+    width:200px;
+    
+     margin: 15px;
+}
+.movie:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.marTop10{
+    margin-top: 10px;
+}
+.width100{
+    width:100%;
+}

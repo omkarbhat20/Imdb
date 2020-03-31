@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="form-group marTop10">
+      <input type="text"  placeholder="Enter Movie Name" [(ngModel)]="movieName" class="form-control">
+      <button class="btn btn-primary marTop10" (click)="getMovieName(movieName)">Search</button>
+    </div>
+  <div class="container-fluid">
+    <h2>Movie Details</h2>    
+    <div class="row">
+    <div class="card movie" *ngFor="let item of data">
+      <img class="card-img-top width100" [src]="item.Poster" [alt]="item.title">
+      <div class="card-body">
+        <h6 class="card-title"><b>Title:</b> {{item.Title}}</h6>
+        <p class="card-text"><b>Type:</b> {{item.Type}}</p>
+        <p><b>ImdbId:</b> {{item.imdbID}}</p>
+      </div>
+      <button type="button" routerLink="/movieDetail/{{item.imdbID}}" routerLinkActive="router-link-active">Movie Details</button>
+    </div>
+  
+  </div>
+  </div>
+  </div>
+  
+ 
+  
