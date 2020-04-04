@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { MoviesService } from '../services/movies.service';
+const CACHE_KEY = 'httpRepoCache';
 
 @Component({
   selector: 'app-nav',
@@ -7,9 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit() {
   }
-
 }

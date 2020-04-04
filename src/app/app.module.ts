@@ -19,7 +19,6 @@ import { HomepageComponent } from './homepage/homepage.component';
     MovieDetailsComponent,
     NavComponent,
     HomepageComponent,
- 
   ],
   imports: [
     BrowserModule,
